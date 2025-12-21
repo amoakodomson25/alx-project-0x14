@@ -1,4 +1,6 @@
-const Loading: React.FC = () => {
+import React from 'react'
+
+const Loading = () => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 flex flex-col justify-center items-center">
@@ -11,4 +13,4 @@ const Loading: React.FC = () => {
   );
 };
 
-export default Loading;
+export default Loading
